@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "170656342187",
+    "firebase_url": "https://sue-android.firebaseio.com",
+    "project_id": "sue-android",
+    "storage_bucket": "sue-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170656342187:android:aeec5c1f0c933ce7",
+        "android_client_info": {
+          "package_name": "com.leanplum.suechung.tictactoea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170656342187-1jsigi533rhs5gosl9h8eg5g880jrpf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRavOeXJ_8cLJTFP1YVJxpW7pfjc1pY2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.leanplum.suechung.tictactoea.loginpage">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="20dp"
+        tools:context="com.leanplum.suechung.tictactoea.loginpage">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="100dp"
+            android:text="Login Page"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:layout_width="312dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="300dp"
+            android:text="Password"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="259dp" />
+
+        <EditText
+            android:id="@+id/passText"
+            android:layout_width="312dp"
+            android:layout_height="42dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="330dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="288dp" />
+
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="370dp"
+            android:text="Login"
+            android:onClick="loginbutton"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="354dp" />
+
+        <EditText
+            android:id="@+id/userText"
+            android:layout_width="312dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="250dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="172dp" />
+
+        <TextView
+            android:layout_width="315dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="200dp"
+            android:text="Username"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="148dp"
+            android:id="@+id/textView" />
+
+
+
+
+        <TextView
+            android:id="@+id/gameTitle"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:text="T"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
